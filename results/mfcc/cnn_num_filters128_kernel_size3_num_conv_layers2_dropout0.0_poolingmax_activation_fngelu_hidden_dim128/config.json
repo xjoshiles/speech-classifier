@@ -1,0 +1,10 @@
+{
+  "model": "cnn",
+  "num_filters": 128,
+  "kernel_size": 3,
+  "num_conv_layers": 2,
+  "dropout": 0.0,
+  "pooling": "max",
+  "activation_fn": "gelu",
+  "hidden_dim": 128
+}

@@ -1,0 +1,17 @@
+# Ignore large and unnecessary directories and files
+data/
+preprocess/MeloTTS
+preprocess/OpenVoice
+*.pt
+*.npy
+*.npz
+*.zip
+*.tar.gz
+*.pkl
+*.ckpt
+__pycache__/
+.env
+.ipynb_checkpoints/
+.DS_Store
+.vscode/
+*.log

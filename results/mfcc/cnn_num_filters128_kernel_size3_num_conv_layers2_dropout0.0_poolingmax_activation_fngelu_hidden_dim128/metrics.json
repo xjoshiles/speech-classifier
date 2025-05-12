@@ -1,0 +1,14 @@
+{
+  "val_loss": 0.027392341211653005,
+  "val_acc": 0.9901818181818182,
+  "test_loss": 0.22224078210812245,
+  "test_acc": 0.9268181818181818,
+  "early_stopping_epoch": 10,
+  "auc": 0.9836,
+  "f1_macro": 0.9267,
+  "f1_weighted": 0.9267,
+  "precision_human": 0.8929,
+  "recall_human": 0.97,
+  "precision_synth": 0.9672,
+  "recall_synth": 0.8836
+}

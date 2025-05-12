@@ -1,0 +1,9 @@
+{
+  "model": "mlp",
+  "hidden_dims": [
+    256,
+    128
+  ],
+  "dropout": 0.0,
+  "activation_fn": "gelu"
+}

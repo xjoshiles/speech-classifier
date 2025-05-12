@@ -1,0 +1,42 @@
+Model,Features,Hyperparameters,Accuracy,F1 Score,AUC,Path
+CNN,MFCC,"'num_filters': 128
+'kernel_size': 3
+'num_conv_layers': 2
+'dropout': 0.0
+'pooling': 'max'
+'activation_fn': 'gelu'
+'hidden_dim': 128",0.926818182,0.9267,0.9836,results\mfcc\cnn_num_filters128_kernel_size3_num_conv_layers2_dropout0.0_poolingmax_activation_fngelu_hidden_dim128
+LSTM,MFCC,"'hidden_dim': 128
+'num_layers': 2
+'bidirectional': True
+'dropout': 0.3",0.845454545,0.8454,0.9257,results\mfcc\lstm_hidden_dim128_num_layers2_bidirectionalTrue_dropout0.3
+MLP,MFCC,"'hidden_dims': [256
+128]
+'dropout': 0.0
+'activation_fn': 'gelu'",0.757727273,0.7575,0.8228,"results\mfcc\mlp_hidden_dims[256, 128]_dropout0.0_activation_fngelu"
+Logistic,MFCC,"'use_bias': True
+'dropout': 0.0",0.589090909,0.5779,0.6861,results\mfcc\logistic_use_biasTrue_dropout0.0
+CNN 2D,Spectrogram,"'num_filters': 128
+'kernel_size': 5
+'num_conv_layers': 2
+'dropout': 0.3
+'pooling': 'max'
+'activation_fn': 'gelu'
+'hidden_dim': 128",0.964545455,0.9645,0.9972,results\spectrogram_2d\cnn_2d_num_filters128_kernel_size5_num_conv_layers2_dropout0.3_poolingmax_activation_fngelu_hidden_dim128
+CNN,Wave2Vec,"'num_filters': 128
+'kernel_size': 5
+'num_conv_layers': 1
+'dropout': 0.3
+'pooling': 'max'
+'activation_fn': 'gelu'
+'hidden_dim': 128",0.97,0.97,0.9988,results\wav2vec\cnn_num_filters128_kernel_size5_num_conv_layers1_dropout0.3_poolingmax_activation_fngelu_hidden_dim128
+MLP,Wave2Vec,"'hidden_dims': [256
+128]
+'dropout': 0.2
+'activation_fn': 'relu'",0.932272727,0.932,0.9974,"results\wav2vec\mlp_hidden_dims[256, 128]_dropout0.2_activation_fnrelu"
+LSTM,Wave2Vec,"'hidden_dim': 128
+'num_layers': 1
+'bidirectional': True
+'dropout': 0.3",0.943181818,0.943,0.996,results\wav2vec\lstm_hidden_dim128_num_layers1_bidirectionalTrue_dropout0.3
+Logistic,Wave2Vec,"'use_bias': True
+'dropout': 0.0",0.898636364,0.8976,0.9874,results\wav2vec\logistic_use_biasTrue_dropout0.0

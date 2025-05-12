@@ -1,0 +1,7 @@
+Label,Precision,Recall,F1-Score,Support
+Human,0.8929,0.97,0.9298,1100.0
+Synthetic,0.9672,0.8836,0.9235,1100.0
+,,,,
+accuracy,,,0.9268,2200.0
+macro avg,0.93,0.9268,0.9267,2200.0
+weighted avg,0.93,0.9268,0.9267,2200.0

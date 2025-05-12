@@ -1,0 +1,5 @@
+{
+  "model": "logistic",
+  "use_bias": true,
+  "dropout": 0.0
+}
